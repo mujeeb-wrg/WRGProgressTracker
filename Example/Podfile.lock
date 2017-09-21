@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WRGProgressBar (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WRGProgressBar (from `../`)
+
+EXTERNAL SOURCES:
+  WRGProgressBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WRGProgressBar: 0638a762db4760afdaedae0255b2148f36f933c4
+
+PODFILE CHECKSUM: dbaefd483dce12ab32cc26312c71882a168f1179
+
+COCOAPODS: 1.2.1
