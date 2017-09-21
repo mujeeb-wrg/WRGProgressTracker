@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WRGProgressBar_Example' do
+  pod 'WRGProgressBar', :path => '../'
+
+  target 'WRGProgressBar_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
